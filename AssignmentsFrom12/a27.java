@@ -8,7 +8,6 @@ public class a27 {
         int num = input.nextInt();
         int sum = 0;
         int n;
-        int product = 0;
         while ( num != 0) {
             n = num % 10;
             sum = sum + n;
@@ -17,7 +16,6 @@ public class a27 {
 
         }
         System.out.println("Sum of digits:" + sum);
-        System.out.println("Product of digits:" +product);
 
 
     }
